@@ -66,6 +66,9 @@ namespace Sharpmake
     <AndroidApkName>[options.AndroidApkName]</AndroidApkName>
     <AndroidGradlePackageOutputName>[options.AndroidGradlePackageOutputName]</AndroidGradlePackageOutputName>
   </PropertyGroup>
+  <PropertyGroup Label=""Vcpkg"">
+    <VcpkgEnableManifest>true</VcpkgEnableManifest>
+  </PropertyGroup>
 ";
 
             private const string _projectConfigurationsFastBuildMakefile =
