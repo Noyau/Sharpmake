@@ -228,6 +228,9 @@ namespace Sharpmake
     <CopyLocalDebugSymbols>[options.CopyLocalDebugSymbols]</CopyLocalDebugSymbols>
     <CopyCppRuntimeToOutputDir>[options.CopyCppRuntimeToOutputDir]</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
+  <PropertyGroup Label=""Vcpkg"">
+    <VcpkgEnableManifest>true</VcpkgEnableManifest>
+  </PropertyGroup>
 ";
 
         private const string _windowsSDKOverridesBegin =
